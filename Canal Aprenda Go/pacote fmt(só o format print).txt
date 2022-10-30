@@ -1,0 +1,28 @@
+package main
+
+import "fmt" //fmt fãnt
+
+func main(){
+
+}
+
+na linguagem go, quando uma variavel é declarada como int, ele vai ser int até morrer, ou até programa acabar.
+Format printing:
+grupo 1 (Print)(aceitam um numero infinito de argumentos(a... interface{})) e retorna(n int, err error):
+    # coloca a informação na tela
+    Print
+    Println --> é a funçaõ Print só que com uma nova  linha(newline)
+    Printf --> formata de acordo com o formato espeficado e coloca a informação na tela 
+
+grupo 2 (Sprint)(aceitam um numero infinito de argumentos(a... interface{})) e retorna(string):
+    # quando os valores não forem strings, ele retorna valores espaçados nos operandos(",")
+    # e.g. string3 := Spring(string1, string2) armazena "string1string2" em string3
+    SPrint
+    Sprintln --> é a funçaõ Sprint só que retorna com uma nova linha(newline)
+    Sprintf --> formata de acordo com o formato espeficado e retorna a string
+
+grupo 3 (Fprint)(aceitam um numero infinito de argumentos(a... interface{})) e retorna(n int, err error):
+    # 'Fileprint'é um writer interface, e coloca bytes em alguma coisa(e coisa pode ser um arquivo, ou uma conexão de um servidor, ou qualquer coisa que aceite bytes)
+    Fprint
+    Fprintln --> é a funçaõ Fprint só que com uma nova linha(newline)
+    Fprintf --> formata de acordo com o formato espeficado
